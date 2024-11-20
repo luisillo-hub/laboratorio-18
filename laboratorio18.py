@@ -1,8 +1,8 @@
 #Crear Variables
 s = input("Ingrese una frase: ")
-i = input("Ingresa un numero entero: ")
-f = input("Ingresa un numero con decimales: ")
-b = input("Ingresa True or False: ")
+i = int(input("Ingresa un numero entero: "))
+f = float(input("Ingresa un numero con decimales: "))
+b = bool(input("Ingresa True or False: "))
 print("String = ",s)
 print("Int =",i)
 print("Float =",f)
